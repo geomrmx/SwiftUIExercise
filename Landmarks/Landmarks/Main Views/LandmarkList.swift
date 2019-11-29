@@ -20,7 +20,9 @@ struct LandmarkList: View {
                 
                 ForEach(landmarkData) { landmark in
                     if !self.userData.showFavoritesOnly || landmark.isFavorite {
-                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                        NavigationLink(destination: LandmarkDetail(landmark: landmark)
+                            .environmentObject(self.userData)
+                        ) {
                             LandmarkRow(landmark: landmark)
                         }
                     }

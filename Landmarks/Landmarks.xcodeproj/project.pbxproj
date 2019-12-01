@@ -46,6 +46,8 @@
 		BDD0866B2391BB7E00E66C60 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0866A2391BB7E00E66C60 /* HikeGraph.swift */; };
 		BDD0866D2391BBB700E66C60 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0866C2391BBB700E66C60 /* GraphCapsule.swift */; };
 		BDD0866F2391C71B00E66C60 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0866E2391C71B00E66C60 /* HikeDetail.swift */; };
+		BDD086712393B6D000E66C60 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD086702393B6D000E66C60 /* Home.swift */; };
+		BDD086732393B8F300E66C60 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD086722393B8F300E66C60 /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,8 @@
 		BDD0866A2391BB7E00E66C60 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		BDD0866C2391BBB700E66C60 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		BDD0866E2391C71B00E66C60 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		BDD086702393B6D000E66C60 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BDD086722393B8F300E66C60 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,14 +220,14 @@
 		BD78CA4D23914FE400307090 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BDD0864C2391B6D100E66C60 /* hikeData.json */,
+				BDD086522391B6D100E66C60 /* landmarkData.json */,
 				BDD0864F2391B6D100E66C60 /* charleyrivers.jpg */,
 				BDD086542391B6D100E66C60 /* chilkoottrail.jpg */,
 				BDD086562391B6D100E66C60 /* chincoteague.jpg */,
 				BDD0864D2391B6D100E66C60 /* hiddenlake.jpg */,
-				BDD0864C2391B6D100E66C60 /* hikeData.json */,
 				BDD086512391B6D100E66C60 /* icybay.jpg */,
 				BDD086532391B6D100E66C60 /* lakemcdonald.jpg */,
-				BDD086522391B6D100E66C60 /* landmarkData.json */,
 				BDD086552391B6D100E66C60 /* rainbowlake.jpg */,
 				BDD086502391B6D100E66C60 /* silversalmoncreek.jpg */,
 				BDD086572391B6D100E66C60 /* stmarylake.jpg */,
@@ -246,6 +250,7 @@
 				BDD086482391AE6A00E66C60 /* RotateBadgeSymbol.swift */,
 				BDD0866A2391BB7E00E66C60 /* HikeGraph.swift */,
 				BDD0866C2391BBB700E66C60 /* GraphCapsule.swift */,
+				BDD086722393B8F300E66C60 /* CategoryRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				BD78CA722391657B00307090 /* LandmarkDetail.swift */,
 				BDD086662391B8A900E66C60 /* HikeView.swift */,
 				BDD0866E2391C71B00E66C60 /* HikeDetail.swift */,
+				BDD086702393B6D000E66C60 /* Home.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD086732393B8F300E66C60 /* CategoryRow.swift in Sources */,
 				BDD086692391B8E400E66C60 /* Hike.swift in Sources */,
 				BDD0866B2391BB7E00E66C60 /* HikeGraph.swift in Sources */,
 				BD78CA6C239154B800307090 /* Data.swift in Sources */,
@@ -419,6 +426,7 @@
 				BD78CA732391657B00307090 /* LandmarkDetail.swift in Sources */,
 				BDD086472391ABB700E66C60 /* BadgeSymbol.swift in Sources */,
 				BD78CA7023915E5F00307090 /* LandmarkList.swift in Sources */,
+				BDD086712393B6D000E66C60 /* Home.swift in Sources */,
 				BDD086452391AA9A00E66C60 /* BadgeBackground.swift in Sources */,
 				BD78CA1B23910BF200307090 /* SceneDelegate.swift in Sources */,
 				BD78CA6E239159D900307090 /* LandmarkRow.swift in Sources */,
